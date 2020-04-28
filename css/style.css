@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FDDE7E;
+	color: #000;
+	
+}
+
+ @font-face {
+    font-family: Miso;
+    src: url(../fonts/miso.ttf);
+       }
+
+
+  @font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Light.ttf);
+       }
+
+  @font-face {
+    font-family: "Miso Regular";
+    src: url(../fonts/miso-regular.ttf);
+       }            
+
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+.offer1, .offer3 {
+	width: 100%;
+	background-color: #fff;
+	margin: 80px 30px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.offer2 {
+
+	width: 100%;
+	background-color: #fff;
+	margin: 50px 15px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 5px;
+	box-shadow: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.price p {
+	font-size: 90px;
+	color: #02995B;
+	font-family: Miso;
+}
+
+
+.heading h1 {
+	font-size: 75px;
+	font-family: "Miso Regular";
+}
+
+.caption p {
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	font-family: Lato;
+}
+
