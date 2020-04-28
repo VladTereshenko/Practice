@@ -73,3 +73,8 @@ body {
 	font-family: Lato;
 }
 
+.price p, .heading h1, .caption p, .logo img {
+	margin: 0px;
+	margin-bottom: 15px;
+
+} 
